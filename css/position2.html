@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .other,.parent{border:5px solid tomato;margin:10px}    
+        .parent{position:relative}
+        /*parent를 주석처리 전과 후 비교*/
+        .me{background-color:gray;color:white;position:absolute;left:0;top:0}
+    </style>       
+</head>
+<body>
+    <div class="other">other</div>
+    <div class="parent">parent
+        <div class="me">me</div>
+    </div>
+</body>
+</html>
